@@ -1,4 +1,4 @@
-TENGRUX: A Modern x86_64 User-Space Experiment
+Tengrux: A Modern x86_64 User-Space Experiment
 Status: 🏗️ [Planning / Roadmap Phase]
 TENGRUX is an independent operating system project built on the Linux kernel, specifically designed for x86_64 architecture. It aims to combine the structural robustness of Android's system hierarchy with the flexibility and performance of minimalist Linux distributions.
 🚀 Core Philosophy (The Plan)
@@ -9,7 +9,7 @@ Android-Inspired Isolation: Implementing u0_a style application sandboxing at th
 Custom Libc Architecture: A specialized musl libc based environment featuring an app-scoped linker, inspired by Android’s Bionic.
 🛠 Planned Architecture
 1. RootFS Hierarchy
-Tengrux moves away from traditional /etc hantallığı. We are planning a clean, partition-based logic:
+Tengrux moves away from traditional /system/etc clumsiness. We are planning a clean, partition-based logic:
 /system: Immutable core files.
 /data: Encrypted user workspace.
 /vendor: Hardware-specific drivers and blobs.
@@ -23,4 +23,4 @@ Late 2026: Early experimental builds for contributors.
 Since we are in the Planning Phase, the best way to contribute right now is:
 Star the repo to follow the development progress.
 Join the discussions on technical architecture (Libc, Init systems, etc.).
-"Built for the Future. Powered by TENGRUX."
+"Built for the Future. Powered by Tengrux."
