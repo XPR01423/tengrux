@@ -1,8 +1,0 @@
-export PATH=/bin:/sbin:/system/bin:/system/sbin:$PATH
-export LD_LIBRARY_PATH=/system/lib:/system/lib64:/lib:/lib64
-export HOME=/storage/emulated/0
-
-if [ -n "$BASH_VERSION" ]; then
-    [ -r /etc/bash.bashrc ] && . /etc/bash.bashrc
-fi
-

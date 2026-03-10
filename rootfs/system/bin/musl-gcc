@@ -1,2 +1,0 @@
-#!/bin/sh
-exec "${REALGCC:-gcc}" "$@" -specs "/home/efe/Belgeler/proje/os/tengrux/rootfs/system/lib/musl-gcc.specs"
